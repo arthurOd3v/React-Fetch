@@ -1,29 +1,12 @@
 .container {
   display: grid;
-  min-height: 100vh;
   background: white;
 }
 
-.post {
-  box-shadow: 2px 2px 5px rgb(54, 54, 56, 0.3);
-}
-
-.posts {
-  margin-top: 20px;
-  gap: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-}
-
-.post-content {
-  display: grid;
-  height: 250px;
-  padding: 25px;
-  background: #e7e7e7;
-  text-align: center;
-}
-
-img {
-  display: block;
-  max-width: 100%;
+.button-container {
+  display: flex;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
 }
