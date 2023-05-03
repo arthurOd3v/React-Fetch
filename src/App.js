@@ -33,9 +33,9 @@ class App extends Component {
       <section className="container">
         <div className="posts">
           {posts.map((post) => (
-            <div className="post">
+            <div key={post.id} className="post">
               <img src={post.cover} alt={post.title} />
-              <div key={post.id} className="post-content">
+              <div className="post-content">
                 <p>{post.id}</p>
                 <h1>{post.title}</h1>
                 <p>{post.body}</p>
